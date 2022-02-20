@@ -4,6 +4,11 @@ body{
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+*:focus{
+outline: 2px dotted orange;
+outline-offset: 3px;
+}
+
 .header{
   background-color: #fff;
   display: flex;
